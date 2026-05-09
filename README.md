@@ -253,25 +253,12 @@ Current Technical Indicators - AAPL
 - **Problem Solving**: Debugging and optimization
 - **Communication**: Clear explanations and reports
 
-## 🏆 Interview Preparation
-
-### Key Talking Points
-1. **Problem-Solving**: Built solution to analyze stock market data
-2. **Technical Skills**: Python, pandas, visualization, web development
-3. **Financial Knowledge**: Technical analysis, risk management, backtesting
-4. **Project Management**: Complete project from conception to deployment
-5. **Continuous Learning**: Self-motivated learning and skill development
-
 ### Sample Interview Questions
 - *"Explain your Stock Market Data Analyzer project."*
 - *"What technical challenges did you face and how did you solve them?"*
 - *"How do you ensure data quality in your analysis?"*
 - *"What risk management techniques did you implement?"*
 - *"How would you scale this system for institutional use?"*
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
 ### Development Setup
 ```bash
@@ -318,7 +305,7 @@ If you have any questions or need help:
 1. **Check the Documentation**: Look in the `docs/` folder
 2. **Search Issues**: Check existing GitHub issues
 3. **Create New Issue**: Provide detailed description of the problem
-4. **Email**: [your.email@example.com]
+4. **Email**: [prarthanapanikar@gmail.com]
 
 ---
 
