@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AAPL Stock Analysis Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+        .header { background-color: #f4f4f4; padding: 20px; border-radius: 5px; margin-bottom: 20px; }
+        .section { margin-bottom: 30px; }
+        .metric { display: inline-block; margin: 10px; padding: 10px; background-color: #f9f9f9; border-radius: 3px; }
+        .metric-label { font-weight: bold; color: #666; }
+        .metric-value { font-size: 1.2em; color: #333; }
+        .positive { color: green; }
+        .negative { color: red; }
+        .neutral { color: #666666; }
+        table { border-collapse: collapse; width: 100%; margin: 10px 0; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .recommendation { background-color: #e7f3ff; padding: 10px; margin: 5px 0; border-left: 4px solid #2196F3; }
+        .warning { background-color: #fff3cd; padding: 10px; margin: 5px 0; border-left: 4px solid #ffc107; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>AAPL Stock Analysis Report</h1>
+        <p>Generated on: 2024-05-09 21:52:30</p>
+        <p>Analysis Period: 2023-01-01 to 2023-12-31 (252 trading days)</p>
+    </div>
+
+    <div class="section">
+        <h2>Executive Summary</h2>
+        <div class="metric">
+            <div class="metric-label">Current Price</div>
+            <div class="metric-value">$175.43</div>
+        </div>
+        <div class="metric">
+            <div class="metric-label">Period Change</div>
+            <div class="metric-value positive">34.70%</div>
+        </div>
+        <div class="metric">
+            <div class="metric-label">Volatility</div>
+            <div class="metric-value">24.50%</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Basic Statistics</h2>
+        <table>
+            <tr><th>Metric</th><th>Value</th></tr>
+            <tr><td>Current Price</td><td>$175.43</td></tr>
+            <tr><td>Period High</td><td>$198.23</td></tr>
+            <tr><td>Period Low</td><td>$124.17</td></tr>
+            <tr><td>Average Price</td><td>$156.78</td></tr>
+            <tr><td>Price Change</td><td>$45.26 (34.70%)</td></tr>
+            <tr><td>Average Volume</td><td>52,300,000</td></tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Risk Analysis</h2>
+        <table>
+            <tr><th>Risk Metric</th><th>Value</th></tr>
+            <tr><td>Daily Volatility</td><td>1.54%</td></tr>
+            <tr><td>Annualized Volatility</td><td>24.50%</td></tr>
+            <tr><td>Maximum Drawdown</td><td>8.67%</td></tr>
+            <tr><td>95% VaR (Daily)</td><td>-2.58%</td></tr>
+            <tr><td>99% VaR (Daily)</td><td>-4.12%</td></tr>
+            <tr><td>Skewness</td><td>0.234</td></tr>
+            <tr><td>Kurtosis</td><td>2.890</td></tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Strategy Performance</h2>
+        <table>
+            <tr><th>Performance Metric</th><th>Value</th></tr>
+            <tr><td>Total Return</td><td>12.45%</td></tr>
+            <tr><td>Annualized Return</td><td>13.21%</td></tr>
+            <tr><td>Sharpe Ratio</td><td>0.72</td></tr>
+            <tr><td>Win Rate</td><td>62.50%</td></tr>
+            <tr><td>Total Trades</td><td>24</td></tr>
+            <tr><td>Profit Factor</td><td>1.85</td></tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Investment Recommendations</h2>
+        <div class="recommendation">Price is above both short and long-term moving averages - Bullish signal</div>
+        <div class="recommendation">RSI indicates neutral range - No clear signal</div>
+        <div class="recommendation">High volatility detected - Use smaller position sizes</div>
+        <div class="recommendation">Strategy shows positive returns - Consider systematic implementation</div>
+        <div class="recommendation">High maximum drawdown detected - Implement stricter risk management</div>
+    </div>
+
+    <div class="section">
+        <h2>Data Quality Assessment</h2>
+        <div class="metric">
+            <div class="metric-label">Quality Score</div>
+            <div class="metric-value">95.50/100</div>
+        </div>
+        <p>No data quality issues detected.</p>
+        <p>Data Points: 252, Columns: 45</p>
+        <p>Date Range: 2023-01-03 to 2023-12-29</p>
+    </div>
+
+    <div class="section">
+        <h2>Disclaimer</h2>
+        <p><em>This report is for educational purposes only and should not be considered as financial advice. 
+        Past performance does not guarantee future results. Always conduct your own research before making investment decisions.</em></p>
+    </div>
+</body>
+</html>

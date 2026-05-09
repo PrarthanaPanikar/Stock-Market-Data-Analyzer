@@ -1,0 +1,47 @@
+# Stock Market Data Analyzer Requirements
+# Python 3.9+ required
+
+# Core Data Processing
+pandas==1.5.3
+numpy==1.24.3
+
+# Stock Data Sources
+yfinance==0.2.18
+
+# Technical Analysis
+ta==0.10.2
+
+# Visualization
+matplotlib==3.7.1
+seaborn==0.12.2
+plotly==5.14.1
+
+# Web Dashboard
+streamlit==1.22.0
+
+# Database
+sqlite3  # Built-in with Python
+
+# Date/Time Handling
+datetime  # Built-in with Python
+
+# Statistical Analysis
+scipy==1.10.1
+
+# Machine Learning (optional)
+scikit-learn==1.2.2
+
+# Report Generation
+jinja2==3.1.2
+weasyprint==59.0
+
+# Testing
+pytest==7.3.1
+
+# Development Tools
+jupyter==1.0.0
+notebook==6.5.4
+
+# Utilities
+requests==2.31.0
+python-dotenv==1.0.0
